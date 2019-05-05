@@ -7,7 +7,7 @@
 ## 本机硬件:
 CPU: intel i5-8250U
 
-主板: Asus X411UN Series Notebook
+主板: Asus X411UN Series Notebook (BIOS版本302)
 
 内存: 8GB板载
 
