@@ -182,9 +182,9 @@
 	</dict>
 	<key>DisableDrivers</key>
 	<array>
+		<string>AppleKeyAggregator</string>
 		<string>SMCHelper</string>
 		<string>VBoxHfs</string>
-		<string>AppleKeyAggregator</string>
 	</array>
 	<key>GUI</key>
 	<dict>
@@ -432,10 +432,52 @@
 	</dict>
 	<key>SMBIOS</key>
 	<dict>
+		<key>BiosReleaseDate</key>
+		<string>10/24/2018</string>
+		<key>BiosVendor</key>
+		<string>Apple Inc.</string>
+		<key>BiosVersion</key>
+		<string>AAPJ140K.88Z.F000.B00.1810242138</string>
+		<key>Board-ID</key>
+		<string>Mac-827FAC58A8FDFA22</string>
+		<key>BoardManufacturer</key>
+		<string>Apple Inc.</string>
+		<key>BoardSerialNumber</key>
+		<string>FVF831405GUKN2RJC</string>
+		<key>BoardType</key>
+		<integer>10</integer>
+		<key>BoardVersion</key>
+		<string>1.0</string>
+		<key>ChassisAssetTag</key>
+		<string>Air-Enclosure</string>
+		<key>ChassisManufacturer</key>
+		<string>Apple Inc.</string>
+		<key>ChassisType</key>
+		<string>0x09</string>
+		<key>EfiVersion</key>
+		<string>220.250.320.0.0</string>
+		<key>Family</key>
+		<string>MacBook Air</string>
+		<key>FirmwareFeatures</key>
+		<string>0xFC0FE137</string>
+		<key>FirmwareFeaturesMask</key>
+		<string>0xFF1FFF3F</string>
+		<key>LocationInChassis</key>
+		<string>Part Component</string>
+		<key>Manufacturer</key>
+		<string>Apple Inc.</string>
 		<key>Mobile</key>
 		<true/>
-		<key>Trust</key>
-		<false/>
+		<key>PlatformFeature</key>
+		<string>0xFFFF</string>
+		<key>ProductName</key>
+		<string>MacBookAir8,1</string>
+		<key>SerialNumber</key>
+		<string>FVFX5AZMJK78</string>
+		<key>SmUUID</key>
+		<string>C8155C57-84FB-44EB-97E1-0CCC02497C30</string>
+		<key>Version</key>
+		<string>1.0</string>
 	</dict>
 	<key>SystemParameters</key>
 	<dict>
