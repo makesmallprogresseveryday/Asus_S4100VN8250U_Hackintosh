@@ -33,7 +33,7 @@
 				<key>FixHDA</key>
 				<false/>
 				<key>FixHPET</key>
-				<false/>
+				<true/>
 				<key>FixIPIC</key>
 				<false/>
 				<key>FixIntelGfx</key>
@@ -69,6 +69,48 @@
 					<key>Replace</key>
 					<data>
 					SUdQVQ==
+					</data>
+				</dict>
+				<dict>
+					<key>Comment</key>
+					<string>change HDAS to HDEF</string>
+					<key>Disabled</key>
+					<false/>
+					<key>Find</key>
+					<data>
+					SERBUw==
+					</data>
+					<key>Replace</key>
+					<data>
+					SERFRg==
+					</data>
+				</dict>
+				<dict>
+					<key>Comment</key>
+					<string>change AZAL to HDEF</string>
+					<key>Disabled</key>
+					<false/>
+					<key>Find</key>
+					<data>
+					QVpBTA==
+					</data>
+					<key>Replace</key>
+					<data>
+					SERFRg==
+					</data>
+				</dict>
+				<dict>
+					<key>Comment</key>
+					<string>change B0D3 to HDAU</string>
+					<key>Disabled</key>
+					<false/>
+					<key>Find</key>
+					<data>
+					QjBEMw==
+					</data>
+					<key>Replace</key>
+					<data>
+					SERBVQ==
 					</data>
 				</dict>
 			</array>
@@ -156,11 +198,9 @@
 		<key>Audio</key>
 		<dict>
 			<key>AFGLowPowerState</key>
-			<true/>
-			<key>Inject</key>
-			<integer>3</integer>
+			<false/>
 			<key>ResetHDA</key>
-			<true/>
+			<false/>
 		</dict>
 		<key>InjectHDMI</key>
 		<false/>
@@ -182,9 +222,9 @@
 	</dict>
 	<key>DisableDrivers</key>
 	<array>
-		<string>SMCHelper</string>
 		<string>VBoxHfs</string>
 		<string>AppleKeyAggregator</string>
+		<string>SMCHelper</string>
 	</array>
 	<key>GUI</key>
 	<dict>
