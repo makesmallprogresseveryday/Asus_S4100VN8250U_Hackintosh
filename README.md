@@ -15,7 +15,7 @@ CPU: intel i5-8250U
 
 显卡：集显INTEL UHD620, 独显nVIDIA GeForce MX150
 
-声卡: Conexant SmartAudio HD/英特尔(R) 显示器音频 (windows下查到的)
+声卡: Conexant CX8050
 
 硬盘: 1. M.2 128G 闪迪 SSD; 2. SATA 500GB hdd (黑苹果驱动与硬盘容量牌子关系不大)
 
