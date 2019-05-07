@@ -26,7 +26,7 @@ CPU: intel i5-8250U
 
  睡眠和唤醒
 
- 音频正常, 插耳机自动切换,麦克风正常
+ 音频正常, 插耳机自动切换,麦克风正常 (若麦克风不能用,复制CodecCommander.kext到"/Library/Extensions"目录下并重建缓存)
 
  HDMI输出
 
